@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T18:35:46.061325+00:00",
+  "scans": [
+    {
+      "id": "b6003d49-9557-46a5-953f-86fbca5ddfe2",
+      "capture_id": "2026-09-23_10-01-29_3DGS",
+      "title": "September 23 · Interior walkthrough",
+      "description": "Our first published walkthrough, built from the September 23 scan with the class demonstration preset.",
+      "captured_date": "2026-09-23",
+      "published_at": "2026-10-01T18:35:46.061325+00:00",
+      "review": "preview",
+      "tags": [
+        "Interior",
+        "S20 capture",
+        "Class demo"
+      ],
+      "photos": 618,
+      "viewpoints": 4,
+      "viewer": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/index.html",
+      "package": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/viewer-package.zip",
+      "viewer_bytes": 27341153,
+      "package_bytes": 18693904,
+      "html_sha256": "7b710c893c735109b44a33f51cdcf2d0fd0a1b1f259498c627bc52f020f07bc8",
+      "package_sha256": "9545d33d615eda6bcd97332dab6b262ca4c9d59eea2ff9457e08d2c9cb6a8017",
+      "cover": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/cover.png"
+    }
+  ]
+}
