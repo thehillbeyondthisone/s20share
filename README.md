@@ -14,7 +14,8 @@ appears after its package is pushed and GitHub Pages finishes deployment.
 ## Publish a finished scan
 
 Authenticate this PC once with `gh auth login`, then `gh auth setup-git`.
-The local Drive-to-viewer pipeline calls this adapter after its quality checks.
+The local Drive-to-viewer pipeline calls this adapter after its quality checks
+and the operator's **Publish publicly** approval for the exact package revision.
 The same adapter can be called manually:
 
 ```powershell
@@ -36,7 +37,7 @@ updates are reported instead of overwriting them.
 
 ## Review and maintain the collection
 
-New scans are published as **Preview**, so their live URL is ready for review.
+Approved scans are published as **Preview**, so their live URL is ready for review.
 After checking the walkthrough, change that catalog entry's `review` to
 `reviewed` in `docs/catalog.json`, commit, and push. Titles, descriptions and
 tags can be edited there too. An automatic retry of an unchanged viewer preserves
