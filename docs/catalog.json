@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-10T18:18:41.175943+00:00",
+  "updated_at": "2026-10-10T21:26:25.957731+00:00",
   "scans": [
     {
       "id": "27e45466-86a5-42c6-8018-df7c9fdd86ea",
@@ -16,13 +16,13 @@
       ],
       "photos": 686,
       "viewpoints": 4,
-      "viewer": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/index.html",
-      "package": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/viewer-package.zip",
-      "viewer_bytes": 12542664,
-      "package_bytes": 7491715,
-      "html_sha256": "7a7217c271edbf1149fb17b19b634322d641d125a55f0cdadf7a6bd6245eb77f",
-      "package_sha256": "ad0407254e6b37839f42587f652ca42464695e1b8969868d1e451a8e2a8365f6",
-      "cover": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/cover.jpg",
+      "viewer": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/867454aec1b57f9d/index.html",
+      "package": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/867454aec1b57f9d/viewer-package.zip",
+      "viewer_bytes": 17363390,
+      "package_bytes": 11138098,
+      "html_sha256": "867454aec1b57f9d3c6901add3bd9d4fe1721d4fd44e3248f086cf4e8b75f92f",
+      "package_sha256": "d6df96b6cc7af34f43a4e4312f15fb6e200fdf1d3255cc76a15fdef23d12368b",
+      "cover": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/867454aec1b57f9d/cover.jpg",
       "milestone": "first-successful",
       "cover_kind": "cleaned-scan-render"
     }
