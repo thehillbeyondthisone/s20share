@@ -1,51 +1,30 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-10T17:48:16.050906+00:00",
+  "updated_at": "2026-10-10T18:18:41.175943+00:00",
   "scans": [
     {
       "id": "27e45466-86a5-42c6-8018-df7c9fdd86ea",
       "capture_id": "2026-10-10_07-58-16_3DGS",
-      "title": "S20 test - October 10 - 07:58",
-      "description": "An interactive 3D walkthrough of this captured space.",
+      "title": "Martial Arts Studio",
+      "description": "Explore the training floor, the padded central pillar and the details of a real martial arts studio. Four viewpoints take you around our first successful spatial capture.",
       "captured_date": "2026-10-10",
       "published_at": "2026-10-10T17:00:14.424847+00:00",
-      "review": "preview",
+      "review": "reviewed",
       "tags": [
-        "S20 capture",
-        "Class demo"
+        "Martial arts",
+        "Studio"
       ],
       "photos": 686,
       "viewpoints": 4,
-      "viewer": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/6a684f3e78f20988/index.html",
-      "package": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/6a684f3e78f20988/viewer-package.zip",
-      "viewer_bytes": 17356483,
-      "package_bytes": 11136314,
-      "html_sha256": "6a684f3e78f20988a358f3f28896cef1689e740d7f0a053ff94f8e1c705853f6",
-      "package_sha256": "fb77bc2ddf3a3f9a6bae21bcd2318993f1a82706dea7718e1fe8258d4d957997",
-      "cover": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/6a684f3e78f20988/cover.jpg"
-    },
-    {
-      "id": "b6003d49-9557-46a5-953f-86fbca5ddfe2",
-      "capture_id": "2026-09-23_10-01-29_3DGS",
-      "title": "September 23 · Interior walkthrough",
-      "description": "Our first published walkthrough, built from the September 23 scan with the class demonstration preset.",
-      "captured_date": "2026-09-23",
-      "published_at": "2026-10-01T18:35:46.061325+00:00",
-      "review": "preview",
-      "tags": [
-        "Interior",
-        "S20 capture",
-        "Class demo"
-      ],
-      "photos": 618,
-      "viewpoints": 4,
-      "viewer": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/index.html",
-      "package": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/viewer-package.zip",
-      "viewer_bytes": 27341153,
-      "package_bytes": 18693904,
-      "html_sha256": "7b710c893c735109b44a33f51cdcf2d0fd0a1b1f259498c627bc52f020f07bc8",
-      "package_sha256": "9545d33d615eda6bcd97332dab6b262ca4c9d59eea2ff9457e08d2c9cb6a8017",
-      "cover": "viewers/b6003d49-9557-46a5-953f-86fbca5ddfe2/7b710c893c735109/cover.png"
+      "viewer": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/index.html",
+      "package": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/viewer-package.zip",
+      "viewer_bytes": 12542664,
+      "package_bytes": 7491715,
+      "html_sha256": "7a7217c271edbf1149fb17b19b634322d641d125a55f0cdadf7a6bd6245eb77f",
+      "package_sha256": "ad0407254e6b37839f42587f652ca42464695e1b8969868d1e451a8e2a8365f6",
+      "cover": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/7a7217c271edbf11/cover.jpg",
+      "milestone": "first-successful",
+      "cover_kind": "cleaned-scan-render"
     }
   ]
 }

@@ -3,33 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#161d38">
-  <meta name="description" content="Explore the Yellow Umbrella Group library of captured spaces and interactive 3D walkthroughs.">
-  <title>Spatial library · Yellow Umbrella Group</title>
+  <meta name="theme-color" content="#f7f6f0">
+  <meta name="description" content="Step inside the Martial Arts Studio, Yellow Umbrella Group’s first successful spatial capture. Explore a real space in an interactive 3D walkthrough.">
+  <title>Spatial Library · Yellow Umbrella Group</title>
   <link rel="icon" href="assets/umbrella.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/library.css">
-  <script defer src="assets/library.js"></script>
+  <link rel="stylesheet" href="assets/library.css?v=studio-1">
+  <script defer src="assets/library.js?v=studio-1"></script>
 </head>
 <body>
-  <a class="skip-link" href="#library">Skip to walkthroughs</a>
+  <a class="skip-link" href="#library">Skip to the walkthrough</a>
   <header class="topbar">
     <a class="brand" href="./" aria-label="Yellow Umbrella Group, spatial library"><img src="assets/umbrella.svg" width="42" height="42" alt=""><span>YELLOW UMBRELLA<span class="brand-sub">GROUP / SPATIAL LIBRARY</span></span></a>
-    <nav aria-label="Main navigation"><a class="active" href="#library">Walkthroughs</a><a href="#about">How it works</a><a class="repo-link" href="https://github.com/thehillbeyondthisone/s20share" target="_blank" rel="noopener">On GitHub <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Main navigation"><a href="#library">The collection</a><a href="#explore">How to explore <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy"><div class="eyebrow"><span class="yellow-line"></span> CAPTURED SPACES. SHARED EXPERIENCES.</div><h1 id="hero-title">Step inside.<br><span>Look around.</span></h1><p>A growing collection of places you can explore from anywhere. Open a walkthrough, find your angle, and make yourself at home.</p><a class="button primary" href="#library">Explore the library <span aria-hidden="true">↓</span></a><div class="hero-note"><span class="status-dot"></span> Browser ready · No app to install</div></div>
-      <div class="hero-visual"><img id="hero-image" src="assets/space-placeholder.svg" alt="A captured space in the walkthrough library"><div class="hero-shade"></div><div class="visual-top"><span class="visual-label">A NEW PERSPECTIVE</span><span class="crosshair" aria-hidden="true">＋</span></div><div class="visual-caption"><span class="visual-kicker">LATEST WALKTHROUGH</span><strong id="hero-name">Your next space starts here</strong><span id="hero-detail">Interactive 3D capture</span></div><div class="corner-mark" aria-hidden="true">↗</div></div>
+    <section class="intro" aria-labelledby="intro-title">
+      <div><p class="eyebrow"><span class="yellow-line"></span> REAL SPACES. SHARED EXPERIENCES.</p><h1 id="intro-title">A new way<br class="mobile-break"> to be there.</h1></div>
+      <p class="intro-note">Places captured in 3D, ready to explore.<br>Our collection begins here.</p>
     </section>
-    <section class="stats" aria-label="Library overview"><div><strong id="available-count">—</strong><span>Walkthroughs available</span></div><div><strong id="photo-count">—</strong><span>Photos reconstructed</span></div><div><strong id="latest-date">—</strong><span>Latest capture</span></div><div class="library-status"><span class="status-dot"></span><span id="sync-status" role="status">Loading the library…</span></div></section>
-    <section class="library" id="library" aria-labelledby="library-heading"><div class="section-heading"><div><div class="eyebrow">THE COLLECTION</div><h2 id="library-heading">Available walkthroughs<span class="count-pill" id="result-count">0</span></h2></div><p>Choose a space. Start exploring.</p></div>
-      <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search spaces, dates, or tags…" aria-label="Search walkthroughs"></label><div class="filter-group" role="group" aria-label="Filter walkthroughs"><button class="filter selected" data-filter="all" aria-pressed="true">All spaces</button><button class="filter" data-filter="reviewed" aria-pressed="false">Reviewed</button><button class="filter" data-filter="preview" aria-pressed="false">Previews</button></div><label class="sort"><span>Sort by</span><select id="sort" aria-label="Sort walkthroughs"><option value="newest">Newest capture</option><option value="title">Name A–Z</option></select></label></div>
-      <div id="cards" class="cards" aria-live="polite"></div><div id="empty" class="empty" hidden><div aria-hidden="true">⌕</div><h3>No spaces found</h3><p>Try a different search or filter.</p><button id="reset" class="button secondary">Clear filters</button></div>
-      <noscript><p class="notice">Enable JavaScript to browse the library. The <a href="catalog.json">catalog</a> lists every published walkthrough.</p></noscript><p class="catalog-note">Preview means the viewer is available for review. A reviewed walkthrough has been checked before sharing.</p>
+    <section class="library" id="library" aria-label="Spatial capture collection">
+      <div class="collection-line"><span class="eyebrow">THE COLLECTION</span><span id="sync-status" role="status">Loading the collection…</span></div>
+      <div id="toolbar" class="toolbar" hidden>
+        <label class="search"><input id="search" type="search" placeholder="Find a space…" aria-label="Search walkthroughs"></label>
+        <label class="sort">Sort <select id="sort" aria-label="Sort walkthroughs"><option value="featured">Featured first</option><option value="newest">Newest capture</option><option value="title">Name A–Z</option></select></label>
+      </div>
+      <div id="cards" class="cards" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden><h2>No spaces found</h2><p>Try another search.</p><button id="reset" class="button secondary" type="button">Clear search</button></div>
+      <noscript><p class="notice">Enable JavaScript to explore the collection, or open the <a href="catalog.json">walkthrough catalog</a>.</p></noscript>
     </section>
-    <section class="about" id="about" aria-labelledby="about-heading"><div class="about-intro"><div class="eyebrow">FROM REAL SPACE TO SHARED SPACE</div><h2 id="about-heading">A scan becomes<br>a place to explore.</h2><p>Photos become a 3D scene, then a lightweight page you can open and share. New published scans appear in this collection.</p><a href="learn/bounded-pass.png" class="text-link" target="_blank" rel="noopener">What is a bounded pass? <span aria-hidden="true">↗</span></a></div><ol class="process"><li><span>01</span><div><h3>Capture the space</h3><p>Walk through the room and upload the finished scan to Drive.</p></div></li><li><span>02</span><div><h3>Build the walkthrough</h3><p>Reconstruct the cameras, train the scene, and check the result.</p></div></li><li><span>03</span><div><h3>Publish and explore</h3><p>The branded viewer joins the library with its own shareable link.</p></div></li></ol></section>
+    <section class="explore" id="explore" aria-labelledby="explore-heading">
+      <div class="explore-heading"><p class="eyebrow">MAKE YOURSELF AT HOME</p><h2 id="explore-heading">Take a look around.</h2><p>No app to install. Just open the walkthrough.</p></div>
+      <ol class="instructions">
+        <li><span class="step">01</span><h3>Step inside</h3><p>Open the studio and give the scene a moment to load.</p></li>
+        <li><span class="step">02</span><h3>Find your angle</h3><p>Drag to look around and scroll to zoom. Choose a saved viewpoint to move around the room.</p></li>
+        <li><span class="step">03</span><h3>Bring someone along</h3><p>Copy the link to share the experience, or download the viewer to keep a copy.</p></li>
+      </ol>
+    </section>
   </main>
-  <footer><a class="brand footer-brand" href="./"><img src="assets/umbrella.svg" width="32" height="32" alt=""><span>YELLOW UMBRELLA GROUP</span></a><p>Real places. A different perspective.</p><span>Spatial library · <span id="year">2026</span></span></footer>
+  <footer><span class="footer-brand">☂ YELLOW UMBRELLA GROUP</span><span>Real places. A different perspective.</span><a href="https://github.com/thehillbeyondthisone/s20share" target="_blank" rel="noopener">Spatial library on GitHub ↗</a></footer>
   <div id="toast" role="status" class="toast" hidden></div>
 </body>
 </html>

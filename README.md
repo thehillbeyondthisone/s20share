@@ -3,7 +3,7 @@
 Live library: https://thehillbeyondthisone.github.io/s20share/
 
 The `docs/` directory is a static site served by GitHub Pages from `main`.
-It contains the branded dashboard, searchable catalog, downloadable packages,
+It contains the branded collection, searchable catalog, downloadable packages,
 the bounded-pass explainer, and standalone SuperSplat walkthroughs. Each viewer
 revision has its own URL; updates retain previously published links.
 
@@ -43,6 +43,12 @@ After checking the walkthrough, change that catalog entry's `review` to
 tags can be edited there too. An automatic retry of an unchanged viewer preserves
 those edits. To explicitly replace metadata through the adapter, include
 `update_metadata: true` in the input metadata.
+
+The Martial Arts Studio is marked `milestone: "first-successful"` in the catalog
+and stays first in the default collection order. Its cover is rendered from the
+cleaned scan. The page shows each scan once; search and sorting appear when the
+collection has more than one entry. Retired listings can be removed from the
+catalog while their versioned viewer files remain available for recovery.
 
 Each file is limited to 95 MiB and the generated site to 900 MiB, leaving room
 within GitHub hosting limits. As the library grows, move large assets to dedicated
