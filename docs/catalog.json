@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:35:46.061325+00:00",
+  "updated_at": "2026-10-10T17:00:14.424847+00:00",
   "scans": [
+    {
+      "id": "27e45466-86a5-42c6-8018-df7c9fdd86ea",
+      "capture_id": "2026-10-10_07-58-16_3DGS",
+      "title": "S20 test - October 10 - 07:58",
+      "description": "An interactive 3D walkthrough of this captured space.",
+      "captured_date": "2026-10-10",
+      "published_at": "2026-10-10T17:00:14.424847+00:00",
+      "review": "preview",
+      "tags": [
+        "S20 capture",
+        "Class demo"
+      ],
+      "photos": 686,
+      "viewpoints": 4,
+      "viewer": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/1ab6260659229237/index.html",
+      "package": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/1ab6260659229237/viewer-package.zip",
+      "viewer_bytes": 17841415,
+      "package_bytes": 11502710,
+      "html_sha256": "1ab62606592292379f8760b56d2c5d8f19ecf4ab7b4d567730bad45ae6283311",
+      "package_sha256": "d54385eb4df02336ea94a547e94b95ae09951517f6e58fa074e6f3ddc401d05e",
+      "cover": "viewers/27e45466-86a5-42c6-8018-df7c9fdd86ea/1ab6260659229237/cover.jpg"
+    },
     {
       "id": "b6003d49-9557-46a5-953f-86fbca5ddfe2",
       "capture_id": "2026-09-23_10-01-29_3DGS",
