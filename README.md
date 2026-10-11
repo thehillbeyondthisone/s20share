@@ -55,3 +55,23 @@ within GitHub hosting limits. As the library grows, move large assets to dedicat
 storage before exceeding that budget. Old revisions are retained deliberately.
 
 Preview locally with `python -m http.server 8793 --directory docs`.
+
+## Meta Quest test link
+
+`https://thehillbeyondthisone.github.io/s20share/quest/` follows the latest
+studio entry marked `quest_preview: true`. The collection offers Meta's official
+Web Launch link to send that page to a headset. The viewer offers **Enter VR**
+only when immersive WebXR is available and starts it only after a button press.
+
+VR starts at View 4. Right/left triggers advance/go back through the four reviewed
+stations; the right stick snap-turns 30 degrees; B exits. Native free locomotion
+is disabled. Head tracking remains natural; the room fades when the viewer moves
+more than 25 cm from a station, becoming fully obscured at 45 cm. Returning or
+changing stations restores it. This is guided navigation, not a collision mesh.
+The aligned scan scale is retained, with an estimated floor of Y=-0.76 m.
+
+The cleaned 684,429-splat payload is unchanged. Desktop rendering, the unsupported
+browser fallback, and seven simulated XR lifecycle/navigation cases were checked.
+Physical Quest 3 performance, controller behavior, floor alignment, and comfort
+still need a headset test. Use the test link seated initially and report those
+results before describing it as verified on Quest 3.

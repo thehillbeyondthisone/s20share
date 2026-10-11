@@ -26,6 +26,13 @@ function card(scan) {
   const actions = el('div', undefined, 'card-actions');
   const open = el('a', undefined, 'button primary'); open.append(el('span', 'Enter the ' + (featured ? 'studio' : 'walkthrough')), el('span', '↗')); open.href = viewer; open.target = '_blank'; open.rel = 'noopener';
   const share = el('button', 'Copy walkthrough link', 'button secondary'); share.type = 'button'; share.setAttribute('aria-label', 'Copy link to ' + scan.title); share.addEventListener('click', () => copyLink(scan)); actions.append(open, share);
+  if (scan.quest_preview) {
+    const questUrl = new URL('quest/', location.href);
+    const launch = new URL('https://www.oculus.com/open_url/'); launch.searchParams.set('url', questUrl.protocol === 'https:' ? questUrl.href : 'https://thehillbeyondthisone.github.io/s20share/quest/');
+    const quest = el('a', 'Open on Meta Quest ↗', 'button secondary quest-link'); quest.href = launch.href; quest.target = '_blank'; quest.rel = 'noopener';
+    const help = el('a', 'Quest setup & controls · Test version', 'quest-help'); help.href = questUrl.href; help.target = '_blank'; help.rel = 'noopener';
+    actions.append(quest, help);
+  }
   const packageUrl = relative(scan.package); if (packageUrl) {const download = el('a', 'Download viewer · ' + (Number(scan.package_bytes || 0)/1e6).toFixed(1) + ' MB ↓', 'download-link'); download.href = packageUrl; download.download = (scan.capture_id || scan.id) + '.zip'; actions.append(download);}
   if (scan.review !== 'reviewed') actions.append(el('p', 'Available for walkthrough review.', 'card-footnote'));
   body.append(copy, actions); article.append(imageLink, body); return article;
