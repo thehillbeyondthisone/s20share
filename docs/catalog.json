@@ -1,7 +1,33 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-12T14:58:09.258643+00:00",
+  "updated_at": "2026-10-13T19:39:28.099930+00:00",
   "scans": [
+    {
+      "id": "lustron-house-2026-10-12-dense-lidar-30k",
+      "capture_id": "2026-10-12_14-01-08_3DGS",
+      "title": "Lustron House — 30k LiDAR Preview",
+      "description": "Whole-house MRNF preview: 30,000 steps, 2 million Gaussians and dense LiDAR initialization. Six interior/exterior viewpoints. Interiors remain soft; garden foliage and ground have streaking, gaps and floaters. No continuous depth loss or held-out quality claim.",
+      "captured_date": "2026-10-12",
+      "published_at": "2026-10-13T19:39:28.099930+00:00",
+      "review": "preview",
+      "tags": [
+        "Lustron",
+        "House",
+        "S20",
+        "LiDAR initialization",
+        "30k",
+        "Preview"
+      ],
+      "photos": 3746,
+      "viewpoints": 6,
+      "viewer": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/index.html",
+      "package": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/viewer-package.zip",
+      "viewer_bytes": 38933921,
+      "package_bytes": 27464873,
+      "html_sha256": "4b1c99c13f07c7d21fe355b35432f1659ec4addb085764fc55378be5511fc405",
+      "package_sha256": "fafada0ec4178cfa5c20f426d86dd7dccdb84fc123b3919df074cf58c15dc3f7",
+      "cover": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/cover.png"
+    },
     {
       "id": "27e45466-86a5-42c6-8018-df7c9fdd86ea",
       "capture_id": "2026-10-10_07-58-16_3DGS",
