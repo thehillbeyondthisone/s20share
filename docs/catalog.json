@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-13T19:39:28.099930+00:00",
+  "updated_at": "2026-10-15T15:24:19.460666+00:00",
   "scans": [
     {
       "id": "lustron-house-2026-10-12-dense-lidar-30k",
       "capture_id": "2026-10-12_14-01-08_3DGS",
-      "title": "Lustron House — 30k LiDAR Preview",
-      "description": "Whole-house MRNF preview: 30,000 steps, 2 million Gaussians and dense LiDAR initialization. Six interior/exterior viewpoints. Interiors remain soft; garden foliage and ground have streaking, gaps and floaters. No continuous depth loss or held-out quality claim.",
+      "title": "Lustron House — Completed SHARE Scan",
+      "description": "The completed SHARE PointClouds Studio scan: epoch 20, all 7,476,507 Gaussians, with click-to-move navigation and front-house, backyard and room viewpoints. Roof/foliage floaters and some soft details remain. Available for visual review.",
       "captured_date": "2026-10-12",
       "published_at": "2026-10-13T19:39:28.099930+00:00",
       "review": "preview",
@@ -14,19 +14,18 @@
         "Lustron",
         "House",
         "S20",
-        "LiDAR initialization",
-        "30k",
-        "Preview"
+        "SHARE",
+        "Epoch 20"
       ],
-      "photos": 3746,
-      "viewpoints": 6,
-      "viewer": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/index.html",
-      "package": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/viewer-package.zip",
-      "viewer_bytes": 38933921,
-      "package_bytes": 27464873,
-      "html_sha256": "4b1c99c13f07c7d21fe355b35432f1659ec4addb085764fc55378be5511fc405",
-      "package_sha256": "fafada0ec4178cfa5c20f426d86dd7dccdb84fc123b3919df074cf58c15dc3f7",
-      "cover": "viewers/lustron-house-2026-10-12-dense-lidar-30k/4b1c99c13f07c7d2/cover.png"
+      "photos": 0,
+      "viewpoints": 7,
+      "viewer": "viewers/lustron-house-2026-10-12-dense-lidar-30k/5f77831212c64d32/index.html",
+      "package": "viewers/lustron-house-2026-10-12-dense-lidar-30k/5f77831212c64d32/viewer-package.zip",
+      "viewer_bytes": 97299491,
+      "package_bytes": 71637099,
+      "html_sha256": "5f77831212c64d32f02f772a330bccad3f089784d117b10ddf99f16998c3fef9",
+      "package_sha256": "aa021c6393ff73cf3fb279369df52773e37c297980b37080917448625e09c5b2",
+      "cover": "viewers/lustron-house-2026-10-12-dense-lidar-30k/5f77831212c64d32/cover.png"
     },
     {
       "id": "27e45466-86a5-42c6-8018-df7c9fdd86ea",
